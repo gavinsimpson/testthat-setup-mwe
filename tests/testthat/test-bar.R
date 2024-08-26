@@ -21,3 +21,7 @@ test_that("bar() works with setup model and local data", {
 
   expect_silent(out <- bar(my_gam, data = new_data))
 })
+
+test_that("bar() works with setup model and no data", {
+  expect_silent(out <- bar(my_gam))
+})
