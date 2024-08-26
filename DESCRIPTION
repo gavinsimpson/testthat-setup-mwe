@@ -1,0 +1,16 @@
+Package: ttsetup
+Title: 'testhat' with 'setup.R' env issue
+Version: 0.0.0.9000
+Authors@R: 
+    person("Gavin", "Simpson", , "ucfagls@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9084-8413"))
+Description: MWE for an issue finding objects defined by 'setup.R' within testthat checks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0),
+    withr,
+    mgcv
+Config/testthat/edition: 3
